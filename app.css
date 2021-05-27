@@ -6,10 +6,12 @@ body {
     display:flex;
     align-items:center;
     justify-content:center;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 .app {
-    width: 600px;
+    min-width: 30%;
     background-color: ghostwhite;
     border-radius: 5px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
@@ -76,4 +78,27 @@ header {
     background-color: #cccccc;
     color: #666666;
     cursor: not-allowed;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quotes {
+        padding: 20px 35px;
+    }
+
+    .button {
+        margin: 0px 35px;
+    }
+
+    .app {
+        margin: 25px 35px;
+    }
+
 }
