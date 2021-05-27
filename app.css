@@ -22,17 +22,23 @@ header {
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ebebeb;
 }
 
 .quotes {
     padding: 20px 50px;
     min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quoteText {
-    font-size: 25px;
+    font-size: 1.3em;
     color: #353535;
+    text-align: center;
+    min-height: 115px;
+    margin-top: 25px;
 }
 
 .controls {
