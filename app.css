@@ -1,0 +1,73 @@
+body {
+    background-color: #00DBDE;
+    background-image: linear-gradient(45deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: 'roboto' , sans-serif;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.app {
+    width: 600px;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    padding: 15px 28px;
+}
+
+header {
+    width: 100%;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.quotes {
+    padding: 20px 50px;
+    min-height: 200px;
+}
+
+.quoteText {
+    font-size: 25px;
+    color: #353535;
+}
+
+.controls {
+    width: 100%;
+    padding: 20px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.button {
+    display: block;
+    color: #353535;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    cursor:pointer;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    font-weight: 700;
+}
+
+.newQuote {
+    background-color:#ffc6ff;
+    margin-bottom: 15px;
+}
+
+.newQuote:hover {
+    background-color: #bdb2ff;
+}
+
+.newQuote:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
